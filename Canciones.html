@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discografía | Vicente Fernández</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+<body>
+    <div id="Container">
+        <header>
+            <h1>Vicente Fernández <span>Discografía Completa</span></h1>
+            <div class="marquee-container">
+                <p><i class="fas fa-music"></i> Más de 50 álbumes y 100 millones de copias vendidas <i class="fas fa-music"></i></p>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="Página web.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="información.html"><i class="fas fa-info-circle"></i> Biografía</a></li>
+                <li><a href="Películas.html"><i class="fas fa-film"></i> Filmografía</a></li>
+            </ul>
+        </nav>
+
+        <div class="clearfix"></div>
+
+        <section id="content">
+            <article id="grandes-exitos" class="article">
+                <h2>GRANDES ÉXITOS</h2>
+                <div class="album-gallery">
+                    <div class="album">
+                        <img src="imag/VV.jpg" alt="Volver Volver">
+                        <h3>Volver Volver (1976)</h3>
+                        <p>Contiene el himno ranchero que definió su carrera</p>
+                    </div>
+                    <div class="album">
+                        <img src="imag/ER.jpg" alt="El Rey">
+                        <h3>El Rey (1987)</h3>
+                        <p>Incluye su icónica interpretación del clásico</p>
+                    </div>
+                    <div class="album">
+                        <img src="imag/PR.jpg" alt="Para Recordar">
+                        <h3>Para Recordar (2000)</h3>
+                        <p>Grandes éxitos en versión acústica</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="discografia-completa" class="article">
+                <h2>DISCOGRAFÍA DESTACADA</h2>
+                
+                <div class="decade-tabs">
+                    <button class="tab-button active" onclick="openDecade('70s')">1970s</button>
+                    <button class="tab-button" onclick="openDecade('80s')">1980s</button>
+                    <button class="tab-button" onclick="openDecade('90s')">1990s</button>
+                    <button class="tab-button" onclick="openDecade('00s')">2000s</button>
+                </div>
+                
+                <div id="70s" class="tab-content" style="display:block">
+                    <ul class="album-list">
+                        <li><strong>1971:</strong> Ni en defensa propia</li>
+                        <li><strong>1972:</strong> El ídolo de México</li>
+                        <li><strong>1976:</strong> Volver Volver</li>
+                        <li><strong>1978:</strong> El Tahúr</li>
+                    </ul>
+                </div>
+                
+                <div id="80s" class="tab-content">
+                    <ul class="album-list">
+                        <li><strong>1980:</strong> El Número Uno</li>
+                        <li><strong>1983:</strong> 15 Grandes con el Número Uno</li>
+                        <li><strong>1987:</strong> El Rey</li>
+                        <li><strong>1989:</strong> Vicente Fernández y las clásicas de José Alfredo Jiménez</li>
+                    </ul>
+                </div>
+                
+                <div id="90s" class="tab-content">
+                    <ul class="album-list">
+                        <li><strong>1991:</strong> Vicente Fernández y las más grandes canciones</li>
+                        <li><strong>1994:</strong> Lástima que seas ajena</li>
+                        <li><strong>1997:</strong> Entre el amor y yo</li>
+                    </ul>
+                </div>
+                
+                <div id="00s" class="tab-content">
+                    <ul class="album-list">
+                        <li><strong>2001:</strong> Más con el número uno</li>
+                        <li><strong>2003:</strong> Se me hizo tarde la vida</li>
+                        <li><strong>2007:</strong> Para siempre</li>
+                    </ul>
+                </div>
+            </article>
+            
+            <article id="canciones-iconicas" class="article">
+                <h2>CANCIONES QUE DEFINIERON UNA ÉPOCA</h2>
+                <div class="song-list">
+                    <div class="song">
+                        <h3>Volver Volver</h3>
+                        <p>1976 | 500+ versiones grabadas</p>
+                        <audio controls>
+                            <source src="Canciones/vicente fernandez - Volver, Volver - Vicente Fernandez.mp3" type="audio/mpeg">
+                            Tu navegador no soporta audio HTML5.
+                        </audio>
+                    </div>
+                    <div class="song">
+                        <h3>El Rey</h3>
+                        <p>1987 | Himno de la música ranchera</p>
+                        <audio controls>
+                            <source src="Canciones/vicente fernandez - El rey.mp3" type="audio/mpeg">
+                            Tu navegador no soporta audio HTML5.
+                        </audio>
+                    </div>
+                    <div class="song">
+                        <h3>Por Tu Maldito Amor</h3>
+                        <p>1989 | Clásico del despecho</p>
+                        <audio controls>
+                            <source src="Canciones/vicente fernandez - Por Tu Maldito Amor.mp3" type="audio/mpeg">
+                            Tu navegador no soporta audio HTML5.
+                        </audio>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <aside>
+            <div class="sidebar-widget">
+                <h3><i class="fas fa-trophy"></i> Premios Musicales</h3>
+                <ul class="awards-list">
+                    <li>3 Grammy Latinos</li>
+                    <li>9 Premios Lo Nuestro</li>
+                    <li>Premio Billboard</li>
+                    <li>Disco de Diamante (México)</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3><i class="fas fa-chart-line"></i> Récords</h3>
+                <ul class="records-list">
+                    <li>100+ millones de discos</li>
+                    <li>Más de 50 álbumes</li>
+                    <li>Llenó 9 veces el Zócalo</li>
+                    <li>Concierto a 55,000 personas (1999)</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3><i class="fas fa-quote-right"></i> Sobre su Música</h3>
+                <blockquote>
+                    "Cuando canto, lo hago con el alma. Cada canción es una historia que vive en mí."
+                    <cite>- Vicente Fernández</cite>
+                </blockquote>
+            </div>
+        </aside>
+        
+        <div class="clearfix"></div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre el Autor</h4>
+                    <p>Roberto Carlos Romero Herrera</p>
+                    <p>Estudiante en CECYTE CHIGNAHUAPAN</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> 797 124 8398</p>
+                    <p><i class="fas fa-envelope"></i> robecrh.099@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <p><i class="fab fa-facebook"></i> Betito junior</p>
+                    <p><i class="fas fa-globe"></i> © 2025 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        function openDecade(decadeName) {
+            var i, tabcontent, tabbuttons;
+            
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            
+            tabbuttons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+            }
+            
+            document.getElementById(decadeName).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
